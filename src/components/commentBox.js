@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+/* eslint-disable react/prop-types */
 export default function CommentBox(props) {
   const {
     createHeader = "",

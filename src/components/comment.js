@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { MdDelete } from "react-icons/md";
 import CommentBox from "./commentBox";
+/* eslint-disable react/prop-types */
 export default function Comment(props) {
   const {
     id = "",

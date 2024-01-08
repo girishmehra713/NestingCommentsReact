@@ -1,7 +1,7 @@
 import React from "react";
 import { FaSortAmountUp } from "react-icons/fa";
 import { FaSortAmountDownAlt } from "react-icons/fa";
-
+/* eslint-disable react/prop-types */
 export default function SortComments({ handleSortClick, ascendingSort }) {
   return (
     <div className="sort-date">
